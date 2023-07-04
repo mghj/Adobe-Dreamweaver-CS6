@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		/*重置*/
+		*{margin:0;padding:0;font-family:"Segoe UI",SegoeUI,"Microsoft YaHei",微软雅黑,"PingFang SC","Helvetica Neue",Helvetica,Arial,sans-serif;background-repeat: no-repeat;}
+		h1{font-weight:normal;}
+		li{list-style:none;}
+		img{border:none 0;}
+		/*公共*/
+		body{background-color:gray;}
+		
+		.DwBox{width: 700px;background-color: white;margin:60px auto;}
+		.Nav{background-color:#072600;color:#affc00;padding: 20px;}
+		.Nav dt{display: block; height:38px;font-size:44px; line-height: 38px;font-weight: bold;background-image: url(images/img08.png);background-size:30px;background-position: top right;}
+		.Nav dd{display: block; height:14px;font-size: 14px; line-height:14px;margin-top:14px;}
+		
+		.Main{overflow: hidden;/*width: 660px;*//*margin: 20px auto;*/font-size:12px;padding:20px 20px 10px 20px;border-bottom: solid 1px #ccc;}
+		.Main dl{float: left;}
+		.Main .openfile{width: 229px;}
+		.Main .newfile{width:185px;border-left:solid 1px #ccc;border-right:solid 1px #ccc;padding-left:15px;}
+		.Main .function{width:214px;padding-left:15px;}
+		.openfile dt{display: block;height:12px;line-height:12px;margin-bottom:10px;font-weight: bold;}
+		.openfile dd{display: block;height:22px;line-height:22px;padding-left:24px;background-size:16px;background-position:left center;}
+		
+		.newfile dt{display: block;height:12px;line-height:12px;margin-bottom:10px;font-weight: bold;}
+		.newfile dd{display: block;height:22px;line-height:22px;padding-left:24px;background-size:16px;background-position:left center;}
+		
+		.function dt{display: block;height:12px;line-height:12px;margin-bottom:10px;font-weight: bold;}
+		.function dd{display: block;height:33px;line-height:33px;padding-left:46px;/*background-size:38px;*/background-position:left center;}
+		.function .dd{height:22px;line-height:22px;padding-left:33px;background-size:16px;background-position:left center;}
+		
+		.Main .iconfolder{background-image: url(images/img09.png);}
+		.Main .iconfile1{background-image: url(images/img10.png);}
+		.Main .iconfile2{background-image: url(images/img11.png);}
+		.Main .iconlayout{background-image: url(images/img18.png);}
+		.Main .iconsite{background-image: url(images/img19.png);}
+		.Main .iconfile3{background-image: url(images/img12.png);}
+		.Main .iconfile4{background-image: url(images/img13.png);}
+		.Main .iconfile5{background-image: url(images/img14.png);}
+		.Main .iconfile6{background-image: url(images/img15.png);}
+		.Main .iconfile7{background-image: url(images/img16.png);}
+		.Main .iconfile8{background-image: url(images/img17.png);}
+		
+		.Bottombox{/*background-color: green;*/overflow: hidden;padding: 10px 20px;font-size:12px;border-bottom: solid 1px #ccc;}
+		.Leftbox{float: left;width: 328px;border-right: solid 1px #ccc;}
+		.Leftbox dt, .Leftbox dd{display:block;height:22px;line-height:22px;padding-left:24px;background-size:16px;background-position:left center;background-image: url(images/img20.png);}
+		
+		.Rightbox{float: left;display: block; margin:5px 0 0 15px;height: 44px; background-image: url(images/img22.png);background-size:44px;padding-left: 58px;}
+		
+		.Bottombox .iconextend{background-image: url(images/img21.png);}
+		
+		.Checkbox{background-color:#eee; height:22px;font-size:12px;line-height:22px;padding-left:20px;/*background-image: url(images/img23.png);background-position:20px center;*/border-top: solid 1px white;}
+		.Checkbox input{width:24px;border: none 0;}
+	</style>
+<meta charset="UTF-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+	<div class="DwBox">
+		
+		<dl class="Nav">
+			<dt>Dw</dt>
+			<dd>Adobe Dreamweaver CS6</dd>
+		</dl>
+		
+		<div class="Main">
+			<dl class="openfile">
+				<dt>打开最近的项目</dt>
+				<dd class="iconfile1">index.html</dd>
+				<dd class="iconfolder">打开…</dd>
+			</dl>
+			<dl class="newfile">
+				<dt>新建</dt>
+				<dd class="iconfile2">HTML</dd>
+				<dd class="iconfile2">ColdFusion</dd>
+				<dd class="iconfile2">PHP</dd>
+				<dd class="iconfile2">CSS</dd>
+				<dd class="iconfile2">JavaScript</dd>
+				<dd class="iconfile2">XML</dd>
+				<dd class="iconlayout">流体网络布局…</dd>
+				<dd class="iconsite">Dreamweaver 站点…</dd>
+				<dd class="iconsite">Business Catalyst 站点…</dd>
+				<dd class="iconfolder">更多…</dd>
+			</dl>
+			<dl class="function">
+				<dt>主要功能</dt>
+				<dd class="iconfile3">CS6 新增功能概述</dd>
+				<dd class="iconfile4">流体网络布局</dd>
+				<dd class="iconfile5">Business Catalyst 创作</dd>
+				<dd class="iconfile6">CSS 过滤效果面板</dd>
+				<dd class="iconfile7">jQuery Mobile 色板</dd>
+				<dd class="iconfile8">PhoneGap Build 面板</dd>
+				<dd class="iconfolder dd">更多…</dd>
+			</dl>
+		</div>
+		
+		<div class="Bottombox">
+			<dl class="Leftbox">
+				<dd >快速入门</dd>
+				<dd >新增功能</dd>
+				<dd >资源</dd>
+				<dt class="iconextend">Dreamweaver&nbsp;Exchange</dt>
+			</dl>
+			<dl class="Rightbox">
+				<dt>Adobe®&nbsp;Dreamweaver®&nbsp;CS6</dt>
+				<dd>查找最新的功能提示，教程等更多内容。</dd>
+			</dl>
+		</div>
+		
+		<div class="Checkbox">
+			<input type="checkbox" >不再显示
+		</div>		
+		
+	</div>	
+	
+</body>
+</html>
